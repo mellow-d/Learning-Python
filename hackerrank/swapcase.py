@@ -21,3 +21,4 @@ if __name__ == '__main__':
     s = input("enter the string")
     result = swap_case(s)
     print(result)
+# hello world
