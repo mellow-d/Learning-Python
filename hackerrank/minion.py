@@ -1,3 +1,5 @@
+import time
+
 def minion_game(string):
     string = string.upper()
     word = string
@@ -53,5 +55,8 @@ def minion_game(string):
 
 
 if __name__ == '__main__':
+    start_time=time.time()
     s = input("enter a string: ")
     minion_game(s)
+    end_time=time.time()
+    print(end_time - start_time)
